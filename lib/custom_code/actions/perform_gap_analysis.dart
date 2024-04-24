@@ -18,7 +18,7 @@ import 'package:langchain_openai/langchain_openai.dart';
 
 Future<String> performGapAnalysis(String questionsWrong) async {
   final llm = OpenAI(
-      apiKey: "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",
+      //apiKey: "OPENAI_APIKEY",
       temperature: 0.9);
 
   final prompt =

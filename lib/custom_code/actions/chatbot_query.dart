@@ -16,7 +16,7 @@ import 'package:langchain_chroma/langchain_chroma.dart';
 // and then add the boilerplate code using the button on the right!
 Future<String> chatbotQuery(String query, String topic) async {
   final llm = OpenAI(
-      apiKey: "OPENAI_APIKEY",
+      //apiKey: "OPENAI_APIKEY",
       temperature: 0.9);
 
   final prompt =
