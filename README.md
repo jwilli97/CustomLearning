@@ -1,6 +1,6 @@
-# Snap Personal Test
+# Custom Learning
 
-A new Flutter project.
+A modular learning application that will use GPT or PDFs to create custom learning courses built in Dart and Flutter.
 
 ## Getting Started
 
