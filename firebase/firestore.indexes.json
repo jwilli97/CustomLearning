@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Lessons",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "moduleName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "chapter",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
